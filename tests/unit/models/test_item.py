@@ -1,10 +1,7 @@
-from unittest import TestCase
-import test.unit.unit_base_test
+
 
 from models.item import ItemModel
-
-from models.store import StoreModel
-
+from tests.base_test import BaseTest
 
 
 class ItemTest(BaseTest):
